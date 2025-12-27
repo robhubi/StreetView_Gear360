@@ -3,17 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.36324.19
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Street View Gear360", "Street View Gear360\Street View Gear360.shproj", "{103012D1-ED94-417E-9BCC-3D129A74E5E9}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{8CA94255-C9EB-47B2-AAE5-0A922C350D9A}"
 	ProjectSection(SolutionItems) = preProject
 		Docs\ReadMe.md = Docs\ReadMe.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Batch_Gear2GeoImages", "Batch_Gear2GeoImages", "{DB83BE92-9A7E-494B-B813-A738D8947EE4}"
+	ProjectSection(SolutionItems) = preProject
+		Batch_Gear2GeoImages\1_Split_Video.bat = Batch_Gear2GeoImages\1_Split_Video.bat
+		Batch_Gear2GeoImages\2_Calc_Timestamps.xlsx = Batch_Gear2GeoImages\2_Calc_Timestamps.xlsx
+		Batch_Gear2GeoImages\3_Set_Timestamps.bat = Batch_Gear2GeoImages\3_Set_Timestamps.bat
+		Batch_Gear2GeoImages\4_StitcheImages.bat = Batch_Gear2GeoImages\4_StitcheImages.bat
+		Batch_Gear2GeoImages\5_Geotag_Images.bat = Batch_Gear2GeoImages\5_Geotag_Images.bat
+		Batch_Gear2GeoImages\gear360pano.cmd = Batch_Gear2GeoImages\gear360pano.cmd
+		Batch_Gear2GeoImages\gear360video4096_V5.pto = Batch_Gear2GeoImages\gear360video4096_V5.pto
+		Batch_Gear2GeoImages\Readme_Batch.txt = Batch_Gear2GeoImages\Readme_Batch.txt
+		Batch_Gear2GeoImages\SAM.MP4 = Batch_Gear2GeoImages\SAM.MP4
+		Batch_Gear2GeoImages\TRK.gpx = Batch_Gear2GeoImages\TRK.gpx
+	EndProjectSection
+EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Street View Gear360\Street View Gear360.projitems*{103012d1-ed94-417e-9bcc-3d129a74e5e9}*SharedItemsImports = 13
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
