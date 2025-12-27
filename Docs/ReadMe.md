@@ -176,4 +176,4 @@ Mit der Kamera Gear 360 (2017) kann mit minimalen finanziellen Aufwand eine funk
 
 Radfahrer wählen besser den Weg über das Time Lapse-Video. Hier beträgt die minimale Intervallzeit 1,1s. Das reicht für Street View-Aufnahmen bis etwa 15 km/h. Diese Konfiguration erfordert ein intensives Postprocessing der Daten. Bis auf das Ablesen der Uhrzeit sind jedoch alle Schritte automatisierbar.
 
-Die Batch-File können ........ heruntergeladen werden. Sie laufen unter Windows, können aber auch für andere Betriebssysteme und andere 360°-Kameras angepasst werden.
+Die Batch-File können von [GitHub](https://github.com/robhubi/StreetView_Gear360) heruntergeladen werden. Sie laufen unter Windows, können aber auch für andere Betriebssysteme und andere 360°-Kameras angepasst werden.
