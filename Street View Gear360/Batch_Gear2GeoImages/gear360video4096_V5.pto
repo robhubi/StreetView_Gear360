@@ -1,0 +1,134 @@
+# hugin project file
+#hugin_ptoversion 2
+p f2 w4096 h2048 v360  k0 E0 R0 n"TIFF_m c:LZW r:CROP"
+m i0
+
+# image lines
+#-hugin  cropFactor=1
+i w4096 h2048 f2 v381.613702280938 Ra0 Rb0 Rc0 Rd0 Re0 Eev0 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 Tpy0 Tpp0 j0 a-0.781244165515656 b1.20510216081567 c-0.4927354557629 d-1028.75425406824 e-3.50646253233525 g0 t0 Va1 Vb0 Vc0 Vd0 Vx0 Vy0  S0,2048,0,2048 Vm5 n"Aufn3_Vid_HDR2.jpg"
+#-hugin  cropFactor=1
+i w4096 h2048 f2 v406.824880791416 Ra0 Rb0 Rc0 Rd0 Re0 Eev0 Er1 Eb1 r0.205410220664823 p0.231435609752695 y-179.025992239147 TrX0 TrY0 TrZ0 Tpy0 Tpp0 j0 a-1.18931852591136 b1.86301265768629 c-0.612219891526854 d1029.40788923869 e1.79746387893516 g0 t0 Va1 Vb0 Vc0 Vd0 Vx0 Vy0  S2048,4096,0,2048 Vm5 n"Aufn3_Vid_HDR2.jpg"
+
+
+# specify variables that should be optimized
+v v0
+v Ra0
+v Rb0
+v Rc0
+v Rd0
+v Re0
+v a0
+v b0
+v c0
+v d0
+v e0
+v Vb0
+v Vc0
+v Vd0
+v v1
+v Ra1
+v Rb1
+v Rc1
+v Rd1
+v Re1
+v Eev1
+v r1
+v p1
+v y1
+v a1
+v b1
+v c1
+v d1
+v e1
+v Vb1
+v Vc1
+v Vd1
+v
+
+
+# control points
+c n0 N1 x1573 y237 X2514 Y238 t0
+c n0 N1 x1986 y1122 X2124 Y1130 t0
+c n0 N1 x1951 y862 X2107 Y866 t0
+c n0 N1 x1989 y1008 X2118 Y1017 t0
+c n0 N1 x1430 y152 X2663 Y152 t0
+c n0 N1 x1045 y28 X3049 Y99 t0
+c n0 N1 x1866 y592 X2201 Y587 t0
+c n0 N1 x1720 y372 X2360 Y366 t0
+c n0 N1 x591 y145 X3486 Y180 t0
+c n0 N1 x397.999951122343 y263.000119893343 X3666 Y297 t0
+c n0 N1 x176 y524 X3880 Y547 t0
+c n0 N1 x84 y723 X3967 Y737 t0
+c n0 N1 x83.0000242459892 y1096.00034118053 X4048 Y1099 t0
+c n0 N1 x589 y1825 X3552 Y1906 t0
+c n0 N1 x323 y1640 X3815 Y1675 t0
+c n0 N1 x117 y1393 X3946 Y1383 t0
+c n0 N1 x77 y1273 X3984 Y1265 t0
+c n0 N1 x1661 y1687 X2387 Y1749 t0
+c n0 N1 x1906 y1344 X2152 Y1366 t0
+c n0 N1 x1940 y1219 X2115 Y1236 t0
+c n0 N1 x1932 y1007 X2069 Y1015 t0
+c n0 N1 x1923.00000995106 y1115.0000096825 X2072.27004585703 Y1135.94731093072 t0
+c n0 N1 x1971 y1361 X2221 Y1334 t0
+c n0 N1 x2003 y1229 X2180 Y1219 t0
+c n0 N1 x1922 y591 X2241 Y631.333333333333 t0
+c n0 N1 x2004.49930568779 y848.495368642849 X2166 Y870 t0
+c n0 N1 x1808.61502628132 y1542.59608231697 X2259 Y1572 t0
+c n0 N1 x1875.67849232121 y1548.43840857933 X2297 Y1508 t0
+c n0 N1 x1723.92343248875 y1747.20396443703 X2445 Y1682 t0
+c n0 N1 x548.666666666668 y1918.66666666667 X3493 Y1816 t0
+c n0 N1 x269.333333333333 y1694 X3748.99995059524 Y1626.00015868311 t0
+c n0 N1 x107 y1245 X4023 Y1256 t0
+c n0 N1 x12 y1078 X3967 Y994 t1
+c n0 N1 x85 y645 X3908 Y689 t0
+c n0 N1 x139 y666 X3974 Y661 t0
+c n0 N1 x229 y543 X3921 Y513 t0
+c n0 N1 x81 y999 X4051 Y988 t1
+c n0 N1 x2008.49 y879.5 X2250 Y611 t1
+c n0 N0 x242 y1026 X343 Y561 t1
+c n0 N0 x361 y1028 X506 Y453 t1
+c n0 N0 x697.000010196876 y1030.00002931791 X812 Y351 t1
+c n0 N0 x1274.00001006914 y1028.00001335115 X1186 Y361 t1
+c n0 N0 x1622.48432850598 y983.535814757139 X1488 Y461 t1
+c n0 N0 x1810.00001000921 y1021.00001028077 X1706 Y560 t1
+c n0 N0 x1887.00000970365 y889.00001033487 X1810 Y613 t1
+c n1 N1 x3702 y596 X3799.00000883718 Y1040.00011485206 t1
+c n1 N1 x3681.000009069 y1045.00006266237 X3544 Y491 t1
+c n1 N1 x3351.00000929501 y1053.00002617079 X3252 Y393 t1
+c n1 N1 x2881 y390 X2774 Y1055 t1
+c n1 N1 x2576 y472 X2421 Y1046 t1
+c n1 N1 x2350 y568 X2232 Y1033 t1
+c n1 N1 x3250 y787 X3259 Y1093 t1
+c n1 N1 x2878 y782 X2868 Y1095 t1
+c n1 N1 x3236 y1004 X3238 Y1115 t1
+
+#hugin_optimizeReferenceImage 0
+#hugin_blender enblend
+#hugin_remapper nona
+#hugin_enblendOptions 
+#hugin_enfuseOptions 
+#hugin_hdrmergeOptions -m avg -c
+#hugin_verdandiOptions 
+#hugin_edgeFillMode 0
+#hugin_edgeFillKeepInput false
+#hugin_outputLDRBlended true
+#hugin_outputLDRLayers false
+#hugin_outputLDRExposureRemapped false
+#hugin_outputLDRExposureLayers false
+#hugin_outputLDRExposureBlended false
+#hugin_outputLDRStacks false
+#hugin_outputLDRExposureLayersFused false
+#hugin_outputHDRBlended false
+#hugin_outputHDRLayers false
+#hugin_outputHDRStacks false
+#hugin_outputLayersCompression LZW
+#hugin_outputImageType jpg
+#hugin_outputImageTypeCompression LZW
+#hugin_outputJPEGQuality 94
+#hugin_outputImageTypeHDR exr
+#hugin_outputImageTypeHDRCompression LZW
+#hugin_outputStacksMinOverlap 0.7
+#hugin_outputLayersExposureDiff 0.5
+#hugin_outputRangeCompression 0
+#hugin_optimizerMasterSwitch 0
+#hugin_optimizerPhotoMasterSwitch 21

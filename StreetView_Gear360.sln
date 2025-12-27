@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.36324.19
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Street View Gear360", "Street View Gear360\Street View Gear360.shproj", "{103012D1-ED94-417E-9BCC-3D129A74E5E9}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Street View Gear360\Street View Gear360.projitems*{103012d1-ed94-417e-9bcc-3d129a74e5e9}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
