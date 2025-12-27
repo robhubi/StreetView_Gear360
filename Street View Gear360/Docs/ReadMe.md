@@ -1,6 +1,6 @@
 ## Poor Man's Street View
 
-![Sv01_Banner](SV_Images\Sv01_Banner.jpg)
+![Sv01_Banner](SV_Images/Sv01_Banner.jpg)
 
 Für das Mappen sind Street View Bilder eine großartige Unterstützung. Schnelligkeit und Vollständigkeit der Datenerfassung sind die größten Pluspunkte. Einzig die hohen Kosten waren für mich abschreckend.
 
@@ -12,13 +12,13 @@ Ziel war, so schnell wie möglich Testfahrten machen zu können. Es kamen daher 
 
 Die Konstruktion zeigen die folgenden Bilder:
 
-![Sv02_sKameraAufnehmer](SV_Images\Sv02_sKameraAufnehmer.jpg)
+![Sv02_sKameraAufnehmer](SV_Images/Sv02_sKameraAufnehmer.jpg)
 
-*Bild 01: DIY Stockstativ fürs Fahrrad ([Zoom](SV_Images\Sv02_KameraAufnehmer.jpg)). Länge = 165cm*
+*Bild 01: DIY Stockstativ fürs Fahrrad ([Zoom](SV_Images/Sv02_KameraAufnehmer.jpg)). Länge = 165cm*
 
-![Sv03_sGesAnsi](SV_Images\Sv03_sGesAnsi.jpg)
+![Sv03_sGesAnsi](SV_Images/Sv03_sGesAnsi.jpg)
 
-*Bild 02: Montage am Fahrrad mit Rohrschellen ([zoom](SV_Images\Sv03_GesAnsi.jpg)). Rohrschellen mit Gummieinlage und M8 Anschlussmutter. Das Objektiv ist auf etwa 2,10 Meter Höhe*
+*Bild 02: Montage am Fahrrad mit Rohrschellen ([zoom](SV_Images/Sv03_GesAnsi.jpg)). Rohrschellen mit Gummieinlage und M8 Anschlussmutter. Das Objektiv ist auf etwa 2,10 Meter Höhe*
 
 Das Stockstativ wird mit isolierten Rohrschellen am Fahrrad befestigt. Die Rohrschellen sind in jedem Baumarkt in diversen Durchmessern zu haben. Mit der oberen Befestigung wird auf das Lot ausgerichtet: verschieben entlang des Gepäcksträgers verändert die Neigung in Fahrrichtung; die Einschraubtiefe der äußeren Rohrschelle verändert die Neigung quer zur Fahrrichtung.
 
@@ -85,9 +85,9 @@ Für meine Anwendung am Fahrrad ist auch diese Realisierung zu langsam.
 
 Diese Funktion ist in der Kamera implementiert. Die kleinste einstellbare Intervallzeit ist 0,5s. Die Ausgabe ist ein Video mit 4096x2048 Px und 10 Bildern/s. Jedes Frame zeigt das Bild der beiden 180°-Linsen nebeneinander:
 
-![Sv04_sDoubleLens_218](SV_Images\Sv04_sDoubleLens_218.jpg)
+![Sv04_sDoubleLens_218](SV_Images/Sv04_sDoubleLens_218.jpg)
 
-*Bild 03: Frame eines Time Lapse Videos ([Zoom](SV_Images\Sv04_DoubleLens_218.jpg)). Linkes und rechtes Bild schauen jeweils quer zur Fahrrichtung*
+*Bild 03: Frame eines Time Lapse Videos ([Zoom](SV_Images/Sv04_DoubleLens_218.jpg)). Linkes und rechtes Bild schauen jeweils quer zur Fahrrichtung*
 
 Die tatsächliche Intervallzeit beträgt jedoch 1,1s. Bei Einstellung "Time lapse interval" = 1s ist die tatsächliche Intervallzeit 1,6s usw. Das gilt ebenso für kleinere Videoauflösungen. An der Kamera stellt man offenbar eine Pausenzeit ein und nicht die Intervallzeit.
 
@@ -158,9 +158,9 @@ Die Berechnung eines Kugelpanoramas aus zwei 180° Fischaugen-Bildern ist komple
 
 `gear360video4096_V5.pto` ist eine Vorlage für Hugin, die alle Parameter zur Berechnung des Kugelpanoramas enthält. Ich machte meine eigene Vorlage, da mir die Version von ultramango zu unpräzise zusammenfügte.
 
-![Sv04_sSpherPano_218](SV_Images\Sv05_sSpherPano_218.jpg)
+![Sv04_sSpherPano_218](SV_Images/Sv05_sSpherPano_218.jpg)
 
-*Bild 04: Kugelpanorama mit äquirektangulärer Projektion ([zoom](SV_Images\Sv05_SpherPano_218.jpg)) aus Bild 03. Siehe [Mapillary](https://www.mapillary.com/app/?pKey=25562666360065922) für eine Darstellung im 3D-Raum.*
+*Bild 04: Kugelpanorama mit äquirektangulärer Projektion ([zoom](SV_Images/Sv05_SpherPano_218.jpg)) aus Bild 03. Siehe [Mapillary](https://www.mapillary.com/app/?pKey=25562666360065922) für eine Darstellung im 3D-Raum.*
 
 #### Schritt 5: Geotagging der Bilder
 
