@@ -17,19 +17,9 @@
     <None Include="$(MSBuildThisFileDirectory)Batch_Gear2GeoImages\gear360pano.cmd" />
     <None Include="$(MSBuildThisFileDirectory)Batch_Gear2GeoImages\gear360video4096_V5.pto" />
     <None Include="$(MSBuildThisFileDirectory)Batch_Gear2GeoImages\TRK.gpx" />
-    <None Include="$(MSBuildThisFileDirectory)Docs\ReadMe.md" />
   </ItemGroup>
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)Batch_Gear2GeoImages\Readme_Batch.txt" />
-    <None Include="$(MSBuildThisFileDirectory)Docs\SV_Images\Sv01_Banner.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Docs\SV_Images\Sv02_KameraAufnehmer.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Docs\SV_Images\Sv02_sKameraAufnehmer.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Docs\SV_Images\Sv03_GesAnsi.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Docs\SV_Images\Sv03_sGesAnsi.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Docs\SV_Images\Sv04_DoubleLens_218.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Docs\SV_Images\Sv04_sDoubleLens_218.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Docs\SV_Images\Sv05_SpherPano_218.jpg" />
-    <None Include="$(MSBuildThisFileDirectory)Docs\SV_Images\Sv05_sSpherPano_218.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Batch_Gear2GeoImages\2_Images\" />
