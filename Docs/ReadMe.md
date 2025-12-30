@@ -2,7 +2,7 @@
 
 ![Sv01_Banner](SV_Images/Sv01_Banner.jpg)
 
-Für das Mappen sind Street View Bilder eine großartige Unterstützung. Schnelligkeit und Vollständigkeit der Datenerfassung sind die größten Pluspunkte. Einzig die hohen Kosten waren für mich abschreckend.
+Für das Mappen komplexer räumlicher Strukturen sind 360° Street View Bilder eine großartige Unterstützung. Schnelligkeit und Vollständigkeit der Datenerfassung sind die größten Pluspunkte. Einzig die hohen Kosten waren für mich abschreckend.
 
 Das ändert sich derzeit. Die erste und zweite Generation der Consumer 360°-Kameras kommt nun zu sehr günstigen Preisen in den Gebrauchtwarenhandel. Die Samsung Gear 360 Modell 2017 ist z.B. ab 20€ zu haben. Da musste ich zugreifen :-)
 
@@ -172,8 +172,10 @@ Die Position des Bildes wird über den Abgleich der Zeitstempel in den Bildmetad
 
 ### Resümee
 
-Mit der Kamera Gear 360 (2017) kann mit minimalen finanziellen Aufwand eine funktionierende Street View -Aufnahmelösung aufgebaut werden. Mit der Samsung App beträgt die minimale Intervallzeit 3s. Für Street View-Aufnahmen als Fußgänger ist diese Konfiguration optimal, weil sie kein Postprocessing der Daten benötigt.
+Mit der Kamera Gear 360 (2017) kann mit minimalen finanziellen Aufwand eine funktionierende 360° Street View -Aufnahmelösung aufgebaut werden. Das Ergebnis sind Bilder die unmittelbar auf Mapillary hochgeladen werden können. Die Bildauflösung ist für räumliche Strukturen ausreichend, für Beschriftungen aber oft unzureichend (z.B. [hier](https://www.mapillary.com/app/?pKey=1167136642202051&lat=47.042063875099956&lng=15.468269381699997&z=17&focus=photo&x=0.8030134806227358&y=0.6149964678504992&zoom=0)). 
+
+Mit der Samsung App beträgt die minimale Intervallzeit 3s. Für Street View-Aufnahmen als Fußgänger ist diese Konfiguration optimal, weil sie kein Postprocessing der Daten benötigt.
 
 Radfahrer wählen besser den Weg über das Time Lapse-Video. Hier beträgt die minimale Intervallzeit 1,1s. Das reicht für Street View-Aufnahmen bis etwa 15 km/h. Diese Konfiguration erfordert ein intensives Postprocessing der Daten. Bis auf das Ablesen der Uhrzeit sind jedoch alle Schritte automatisierbar.
 
-Die Batch-File können von [GitHub](https://github.com/robhubi/StreetView_Gear360) heruntergeladen werden. Sie laufen unter Windows, können aber auch für andere Betriebssysteme und andere 360°-Kameras angepasst werden.
+Die Batch-File können von [GitHub](https://github.com/robhubi/StreetView_Gear360) heruntergeladen werden. Sie laufen unter Windows, sollten aber auch für andere Betriebssysteme und andere 360°-Kameras angepasst werden können.
